@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-color: rgb(141, 226, 252);
+}
+
+.navbar {
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226, 77, 77); 
+}
+
+.navbar-brand{
+  color: white;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: black 0px 0px 6px;
+}
+
+.pokeheader {
+  padding: 1em 0em 0em 0em;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokebig-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poke-container {
+ flex-direction: column;
+ border: solid 0px 1px 1px 1px rgba(99, 99, 99, 0.459);
+ box-shadow: 0px 10px 10px grey;
+ padding-top: 1em;
+ width: 40%;
+ background: rgb(226, 77, 77);
+}
+
+.btn.btn-primary {
+  border: none;
+  padding: 18px 32px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
+  cursor: pointer;
+  width: 180px;
+  text-shadow: 1px 1px black;
+}
+
+.pokemon-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 0em;
+}
+
+.modal-header {
+  text-align: center;
+  width: 100%;
+}
+
+h5 {
+  text-transform: uppercase;
+  text-align: center;
+  width: 120%;
+  padding-left: 1em;
+  text-shadow: rgb(99, 97, 97) 1px 1px 1px;  
+  font-size: 30px;
+  color: white;
+}
+
+.modal-content {  
+  text-transform: capitalize;
+  margin-top: 10em;
+  width: 500px;
+  height: 400px;
+  align-items: center;
+  background-color:  rgb(236, 98, 98);
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  font-size: 28px;
+  color: white;
+  text-shadow: rgb(99, 97, 97) 1px 1px 1px; 
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+#buttons {
+  display: none;
+  position: absolute;
+}
