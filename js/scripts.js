@@ -20,7 +20,7 @@ function addListItem(pokemon) {
   let listPokemon = document.createElement('li');
   let button = document.createElement('button');
   button.innerText = pokemon.name;
-  button.classList.add('btn','btn-primary');
+  button.classList.add('btn','btn-outline-primary');
   button.setAttribute('data-toggle','modal');
   button.setAttribute('data-target','#modal')
   listPokemon.append(button);
